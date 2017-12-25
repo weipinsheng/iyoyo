@@ -1,0 +1,53 @@
+img {
+	width: 100%;
+	height: 100%;
+}
+
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.header {
+	height: 8vh;
+	background: url(../images/christmas.jpg) no-repeat left center;
+	background-size: 1rem 8vh;
+	text-align: center;
+}
+
+.header-img {
+	width: 50%;
+	height: 100%;
+}
+
+.outer-screen {
+	width: 100%;
+	height: 100%;
+}
+
+.three {
+	margin-top: 4vh;
+}
+
+.merry {
+	width: 6rem;
+	height: 30vh;
+	margin: 0 auto;
+}
+
+.merry img {
+	width: 100%;
+	height: 100%;
+}
+
+.text {
+	color: #ea1818;
+    font-size: .36rem;
+    font-family: '宋体';
+    line-height: 7vh;
+    text-align: center;
+    font-weight: 700;
+}
