@@ -65,4 +65,11 @@ var swiper3 = new Swiper('#swiper3',{
         stopOnLastSlide: false,
         disableOnInteraction: false,
     }
+});
+
+var load = new Load51();
+var isAnimating = false;
+
+load.onComplete(function(){
+    document.getElementById('audio').play();
 })
